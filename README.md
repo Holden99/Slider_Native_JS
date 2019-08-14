@@ -6,9 +6,4 @@
 4) .slider-dots - is a wrap of all dots;
 5) .dot - are all dots with class name 'dot'
 ***
-CSS
-.dot-active {
-  background-color: #000;
-  height: 18px;
-  width: 18px;
-}
+
