@@ -1,0 +1,75 @@
+.faded {
+    animation-name: fade;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+@keyframes fade {
+from {
+opacity: 0;
+
+}
+to {
+opacity: 1;
+
+}
+}
+
+.slider {
+position: relative;
+}
+
+.slider .wrap {
+display: flex;
+justify-content: center;
+}
+
+
+
+.slider-dots {
+width: 90%;
+margin: 0 auto;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+margin-bottom: 45px;
+}
+.slider-dots .dot {
+cursor: pointer;
+width: 22px;
+height: 22px;
+margin: 0 10px;
+background-color: #FFFFFF;
+border: 1px solid #000000;
+border-radius: 50%;
+display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.slider-dots .dot-active {
+background-color: #000000;
+width: 24px;
+height: 24px;
+}
+.wrap{
+position: relative;
+}
+.prev{
+/* background: url(../img/prev.png) scroll center no-repeat; */
+position: absolute;
+width: 46px;
+height: 74px;
+top:50%;
+left:25%;
+cursor: pointer;
+}
+
+.next{
+/* background: url(../img/next.png) no-repeat scroll center; */
+position: absolute;
+width: 46px;
+height: 74px;
+top:50%;
+right: 25%;
+cursor: pointer;
+}
+/* slider end */

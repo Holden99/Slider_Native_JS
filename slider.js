@@ -1,3 +1,17 @@
+ function dots(){
+        let dotWrap = document.querySelector('.slider-dots'),
+            slides = document.querySelectorAll('.slider-item');
+createDots();
+    function createDots(){
+        for (let i=0;i<slides.length;i++){
+            let div = document.createElement('div');
+            div.classList.add('dot');
+            if (!i) div.classList.add('dot-active');
+            dotWrap.appendChild(div);
+        		}
+    		}
+    	}
+dots();
 function slider(){
     //Slider
     
